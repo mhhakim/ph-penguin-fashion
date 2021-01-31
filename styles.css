@@ -45,17 +45,32 @@ p {
 .card-body h3 {
     font-family: 'Roboto', sans-serif;
 }
-.buy-button {
+.buy-button, .sub-button {
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     border-radius: 10px;
-    text-transform: uppercase;
     color: #fff;
+}
+.buy-button {
+    text-transform: uppercase;
     padding: 15px 25px;
 }
-.buy-button:hover {
+.sub-button {
+    padding: 10px 15px;
+}
+.buy-button:hover, .sub-button:hover {
     color: #ffc861;
 }
 .info-item, .product-card {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
+}
+.newsletter {
+    background-color: #FFFBF0 !important;
+    height: 200px;
+}
+.sub-area input {
+    color: darkmagenta;
+    padding: 10px 15px;
+    width: auto;
+    display: inline;
 }
